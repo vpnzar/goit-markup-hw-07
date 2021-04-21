@@ -1,0 +1,23 @@
+.logo {
+  color: $secondary-background-color;
+  font-family: $accent-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo__text {
+  color: $accent-color;
+}
+
+.header__logo {
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+
+.footer__logo {
+  color: $section-accent-color;
+}
