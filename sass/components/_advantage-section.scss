@@ -1,0 +1,45 @@
+/* Advantage-Section */
+
+.advantage-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &__title {
+    height: 16px;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    line-height: 1.71;
+    height: 75px;
+  }
+}
+
+/* Advantage-Section-List */
+
+.advantage-list {
+  font-weight: 700;
+  padding-bottom: 0;
+  display: flex;
+
+  &__item {
+    min-width: 270px;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--team-background-color);
+    margin-bottom: 30px;
+  }
+}

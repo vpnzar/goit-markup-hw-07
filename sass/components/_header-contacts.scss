@@ -1,0 +1,49 @@
+/* Header-Contacts*/
+
+.header-contact {
+  display: flex;
+
+  &__icon {
+    margin-right: 10px;
+    fill: var(--paragraph-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    fill: var(--accent-color);
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--paragraph-text-color);
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: var(--accent-color);
+  }
+
+  &__link:not(:last-child) {
+    margin-right: 50px;
+  }
+}

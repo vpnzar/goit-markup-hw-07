@@ -1,0 +1,41 @@
+/* Hero-Section */
+
+.hero-section {
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      var(--hero-gradient-color),
+      var(--hero-gradient-color)
+    ),
+    url("../images/hero/hero.jpg");
+  background-color: var(--hero-main-bgrn-color);
+  color: var(--section-accent-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    max-width: calc(100% / 12 * 6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+
+/* Hero-Section-Button */
+
+.hero-section__button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 31px;
+}
